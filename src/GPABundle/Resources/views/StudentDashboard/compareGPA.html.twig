@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Dashboard in GPA v1.0">
+    <meta name="author" content="MnS | Web Solutions">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Student | Dashboard </title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    
+    <!-- bootstrap theme -->
+    <link href="{{asset('css/bootstrap-theme.css')}}" rel="stylesheet">
+    
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{{asset('css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" />    
+
+    <!-- Custom styles -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" />
+    <link href="{{ asset('css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+    
+    <style>
+
+            .siriButton1:disabled { border-color: rgb(0, 153, 255); background-color: rgb(0, 153, 255);}
+            .siriButton2:disabled { border-color: rgb(204, 102, 0); background-color: rgb(204, 102, 0) ;}
+        
+    </style>
+    
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo"><h4><strong>GPA v1.0<span class="lite"> &nbsp;&nbsp;&nbsp;&nbsp;  Grade Performance Analyzer</strong></h4></span></a>
+            <!--logo end-->
+
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- task notificatoin start -->
+                    <li id="task_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-task-l"></i>
+                        </a>
+
+                    </li>
+                    <!-- task notificatoin end -->
+                    
+                    <!-- inbox notificatoin start-->
+                    <li id="mail_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-envelope-l"></i>
+                        </a>
+                    </li>
+                    <!-- inbox notificatoin end -->
+                    
+                    <!-- alert notification start-->
+                    <li id="alert_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-bell-l"></i>
+                        </a>
+                    </li>
+                    <!-- alert notification end-->
+                    
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="{{asset('img/chat-avatar2.jpg') }}">
+                            </span>
+                            <span class="username"><strong>{{name}}</strong></span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_mail_alt"></i> Notifications</a>
+                            </li>
+                            <li>
+                                <a href="{{path('gpa_logout')}}"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                    
+                </ul>
+                <!-- notificatoin dropdown end-->
+                
+            </div>          
+      </header>      
+      <!--header end-->
+
+      
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse " style="width: 210px;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="{{path('student_dashboard')}}">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+     
+                  <li>
+                      <a class="" href="{{path('student_profile')}}">
+                          <i class="icon_profile"></i>
+                          <span>Profile</span>
+                      </a>
+                  </li>
+                  <li>                     
+                      <a class="" href="{{path('student_view_grades')}}">
+                          <i class="icon_piechart"></i>
+                          <span>View Grades</span>
+                          
+                      </a>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_table"></i>
+                          <span>Performance Analysis</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{{path('student_gpa_analysis')}}">GPA Analysis</a></li>                          
+                          <li><a class="" href="">Compare</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li>
+                      <a class="" href="{{path('student_predict_gpa')}}">
+                          <i class="icon_datareport"></i>
+                          <span>GPA Prediction</span>
+                          {#<span class="menu-arrow arrow_carrot-right"></span>#}
+                      </a>
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      
+      <!--main content start-->
+        <section id="main-content">
+            
+            <section class="wrapper" style="margin-left: 30px;">            
+              <!--overview start-->
+                <div class="row">
+                    <div class="col-lg-11">
+                            <h3 class="page-header"><i class="fa fa-table"></i> Compare GPA</h3>
+                            <ol class="breadcrumb">
+                                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                                    <li><i class="fa fa-table"></i>Performance Analysis</li>
+                                    <li><i class="fa fa-table"></i>Compare GPA</li>	
+                            </ol>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-11">	
+                        <div class="panel panel-default col-lg-12"> 
+                            
+                            <div class="row col-lg-12" style="margin-left: 0px;">
+                                <form class="form-horizontal col-lg-12" method="POST" action="{{path('student_gpa_compare')}}" style="padding-bottom: 20px;">
+                                    <h1> Student Comparison</h1>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-lg-2">Student ID</label>
+                                        <div class="col-lg-2">
+                                            {% if  student_id != null %}
+                                                <input type="text" class="" id="student_id"  name="student_id" value='{{ student_id}}' required>
+                                            {% else %}
+                                                <input type="text" class="" id="student_id"  name="student_id" value='{{ student_id}}' required>
+                                            {% endif %}
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <button type="submit" class="btn btn-primary" id="searchButton" name="searchButton" style="margin-top:0px;" disabled>Search</button>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span id="msgNoUser" class="alert alert-warning col-lg-8 text-center" role="alert" style="display: none; color: #9E7F01;margin-bottom: 0px;padding-bottom: 5px;padding-top: 5px;">This Student ID is not in the system!!</span>
+                                            <span id="msgInvalidID" class="alert alert-warning col-lg-8 text-center" role="alert" style="display: none; color: #9E7F01;margin-bottom: 0px;padding-bottom: 5px;padding-top: 5px;">Not a valid Student ID!!</span>
+                                        </div>
+
+                                    </div>
+                                     <div class="form-group">
+                                         <div class="col-lg-7">
+                                        <label class="col-lg-2 control-label" style="text-align: left;">Name:</label><div  id="labelName" class="col-lg-10 control-label" style="text-align: left;">NA</div>
+                                        <label class="col-lg-2 control-label" style="text-align: left;">Department:</label><div id="labelDepartment" class="col-lg-10 control-label" style="text-align: left;">NA</div>
+                                        <label class="col-lg-2 control-label" style="text-align: left;">Email:</label><div id="labelEmail" class="col-lg-10 control-label" style="text-align: left;">NA</div>
+                                         </div>
+                                         <div><button class="btn btn-lg siriButton1" style="margin-bottom: 10px;" disabled></button> YOU</div>
+                                        <div><button class="btn btn-lg siriButton2" disabled></button> FRIEND</div>
+                                    </div>
+                                
+                                </form>
+                            </div>
+                            
+                            {%if sgpaData != null%}
+                            <div class="row col-lg-12" style="margin-left: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px;margin-bottom: 0px;">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">SGPA Curve</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <canvas id="SGPAChart" width="450" height="200"></canvas>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px;margin-bottom: 0px;">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">GPA Curve</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <canvas id="GPAChart" width="450" height="200"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif%}
+                            
+                            {%if mySemResults[0]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 1 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[0]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 1 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[0]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                                                        
+                            {%if mySemResults[1]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 2 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[1]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 2 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[1]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}                         
+                                                        
+                            {%if mySemResults[2]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 3 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[2]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 3 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[2]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                                                        
+                            {%if mySemResults[3]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 4 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[3]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 4 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[3]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}}
+                                
+                            {%if mySemResults[4]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 5 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[4]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 5 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[4]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}                           
+                                                        
+                            {%if mySemResults[5]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 6 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[5]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 6 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[5]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}                         
+                                                        
+                            {%if mySemResults[6]!= null%}
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 7 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[6]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 7 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[6]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                                                        
+                            {%if mySemResults[7]!= null%} 
+                            <div class="row panel col-lg-12" style="margin-left: 0px;margin-bottom: 0px;">
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 8 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in mySemResults[7]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="panel col-lg-6" style="margin-top:30px; margin-bottom: 0px;">
+                                    <div class="panel-heading col-lg-12">
+                                        <div class="col-lg-4"><i class="fa fa-square red"></i><strong>Semester 8 </strong></div>
+                                    </div>
+                                    <div class="panel-body" style="padding-bottom: 0px; padding-top: 0px;">
+                                        <table class="table bootstrap-datatable table-condensed col-lg-11" style="margin-bottom: 0px;">
+                                            <thead>
+                                                <tr class="">
+                                                    <th class="col-lg-2">Code</th>
+                                                    <th class="col-lg-5">Title</th>
+                                                    <th class="col-lg-1 text-center">Grade</th>
+                                                </tr>
+                                            </thead>   
+                                            <tbody>
+                                                {%for result in friendSemResults[7]%}
+                                                    <tr>
+                                                        <td><strong>{{result.id}}</strong></td>  {#code#}
+                                                        <td>{{result.title}}</td>               {#title#}
+                                                        <td class="text-center">{{result.grade}}</td>               {#grades#} 
+
+                                                    </tr>
+                                                {%endfor%}
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}                            
+                                                       
+                        </div>
+                    </div>
+
+                </div>
+
+
+          </section>
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section end -->
+
+    
+
+    
+<!-- javascripts -->
+    <script src="{{asset('js/jquery.js')}}" ></script>
+    <script src="{{asset('js/jquery-ui-1.10.4.min.js')}}"></script>  
+    <script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
+    
+<!-- bootstrap -->
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+<!-- chart.js -->
+    <script src="{{asset('js/Chart.js')}}"></script>
+
+<!-- check student availability  -->
+    <script>
+        $(document).ready(function(){
+            $("#student_id").on('keyup',function(){
+                var student_id= $('#student_id').val();
+                if (student_id.length === 7){
+                    document.getElementById('msgInvalidID').style.display = 'none';
+                    $.ajax({
+                        type: 'GET',
+                        url: '{{path('admin_check_student_availability')}}',
+                        data: {'indexNum': student_id},
+                        dataType: 'json',
+                        success: function (data){
+                           console.log("Returned Data: "+data+"\n");
+                            if( data.status === undefined){
+                                //$("td:contains('null')").text("NA");
+                                document.getElementById('msgNoUser').style.display = 'none';
+                                $('#labelName').text(data.first_name+" "+data.last_name);
+                                $('#labelDepartment').text(data.department);
+                                $('#labelEmail').text(data.email);
+                                $("#searchButton").prop("disabled",false);
+                            }
+                            else if( data.status === 1){ //DB query returned a null set
+                                document.getElementById('msgNoUser').style.display = '';
+                                $('#labelName').text('NA');
+                                $('#labelDepartment').text('NA');
+                                $('#labelEmail').text('NA');
+                                $("#searchButton").prop("disabled",true);
+                            }
+                            else{ //when data.status ==2  // DB query failure
+                                alert("User Availability Ajax call -> DB query execution fail");
+                                $("#searchButton").prop("disabled",true);
+                            }
+                        },
+                        error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                            alert("Status: " + textStatus); 
+                            alert("Error: " + errorThrown); 
+                        }
+                    });
+                }
+                else{
+                    document.getElementById('msgInvalidID').style.display = '';
+                    document.getElementById('msgNoUser').style.display = 'none';
+                    $("#searchButton").prop("disabled",true);
+                }
+
+            });
+        });
+    </script>
+    
+    <!-- if the user is already submitted by the form check student availability  -->
+    <script>
+        $(document).ready(function(){
+            var student_id= $('#student_id').val();
+            if (student_id.length === 7){
+                document.getElementById('msgInvalidID').style.display = 'none';
+                $.ajax({
+                    type: 'GET',
+                    url: '{{path('admin_check_student_availability')}}',
+                    data: {'indexNum': student_id},
+                    dataType: 'json',
+                    success: function (data){
+                       console.log("Returned Data: "+data+"\n");
+                        if( data.status === undefined){
+                            //$("td:contains('null')").text("NA");
+                            document.getElementById('msgNoUser').style.display = 'none';
+                            $('#labelName').text(data.first_name+" "+data.last_name);
+                            $('#labelDepartment').text(data.department);
+                            $('#labelEmail').text(data.email);
+                            $("#searchButton").prop("disabled",false);
+                        }
+                        else if( data.status === 1){ //DB query returned a null set
+                            document.getElementById('msgNoUser').style.display = '';
+                            $('#labelName').text('NA');
+                            $('#labelDepartment').text('NA');
+                            $('#labelEmail').text('NA');
+                            $("#searchButton").prop("disabled",true);
+                        }
+                        else{ //when data.status ==2  // DB query failure
+                            alert("User Availability Ajax call -> DB query execution fail");
+                            $("#searchButton").prop("disabled",true);
+                        }
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                        alert("Status: " + textStatus); 
+                        alert("Error: " + errorThrown); 
+                    }
+                });
+            }
+
+
+        });
+    </script>
+    
+    
+ <!-- Drawing SGPA chart -->
+ <script>
+
+    var ctx = $("#SGPAChart").get(0).getContext("2d");
+
+    var sgpaData = JSON.parse('{{ sgpaData|json_encode()|raw}}');
+    console.log("returned json:");
+    console.log(sgpaData);
+    var sgpaChart = new Chart(ctx).Line( sgpaData,{bezierCurve: false});
+    
+
+
+    var ctx2 = $("#GPAChart").get(0).getContext("2d");
+
+    var gpaData = JSON.parse('{{ gpaData|json_encode()|raw}}');
+    console.log("returned json:");
+    console.log(gpaData);
+    var gpaChart = new Chart(ctx2).Line(gpaData,{bezierCurve: false});
+
+ </script>
+
+
+<!-- nice scroll -->
+<script src="{{asset('js/jquery.scrollTo.min.js')}}"></script>
+<script src="{{asset('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+
+<!--custome script for all page-->
+<script src="{{asset('js/scripts.js')}}"></script>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,11 @@
+.modal-footer {   border-top: 0px; }
+
+body{
+  /*background-color: #26c281;*/
+  background: url('../img/bg-student-studying.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;      
+        
+}

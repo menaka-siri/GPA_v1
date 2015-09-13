@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>User Registration | GPA v1.0 | A project by MnS </title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="{{asset('css/bootstrap-theme.css')}}" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{{asset('css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/font-awesome.css')}}" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" />
+
+</head>
+
+  <body class="login-img3-body" >
+
+    <div class="container" style="">
+        {#<div class="col-lg-12">#}
+            <div class="row" style="max-width: 425px; margin:110px auto; background: rgba(213,215,222,0.9); padding: 0 20px 8px 20px; ">
+                
+                <p class="login-img text-center" style="margin: 0px; color: #34aadc; font-size: 50px;"><i class="icon_info"></i></p>
+                <h2 class="text-center" style="margin: 0 0 10px 0;"> User Registration Status </h2>
+                {%if flag1%}<div class="alert alert-warning col-lg-12 text-center" role="alert" style="color: #9E7F01;">User ID is already registered in the system!! Please go to login page</div>{%endif%}
+                {%if flag2%}<div class="alert alert-danger col-lg-12 text-center" role="alert">User registration failed!!! Contact Admin.</div>{%endif%}
+                {%if flag3%}<div class="alert alert-success col-lg-12 text-center" role="alert" style="color: #087B1B;">User is registered with the system successfully!<br>Please wait till you get the confirmation by Administration.</div>{%endif%}
+                
+                <div class="col-lg-12">
+                    <div class="col-lg-6 pull-left">
+                        <a href="{{path('gpa_user_registration_form')}}" class="btn btn-info btn-lg btn-block" style="border-radius: 0px;">Back to<br>Signup</a>
+                    </div>
+                    <div class="col-lg-6 pull-right">
+                        <a href="{{path('gpa_login')}}" ><button class="btn btn-info btn-lg btn-block" style="border-radius: 0px;" >Back to<br>Login</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        {#</div>#}
+    </div>
+
+  </body>
+</html>

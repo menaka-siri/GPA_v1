@@ -1,0 +1,241 @@
+gpa_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: GPABundle:Default:index }
+ 
+gpa_home:
+    path:     /
+    defaults: { _controller: GPABundle:Default:index }
+
+gpa_login:
+    path:     /login
+    defaults: { _controller: GPABundle:Login:index }
+    
+gpa_logout:
+    path:     /logout
+    defaults: { _controller: GPABundle:Logout:logout }
+    
+gpa_user_registration_form:
+    path:     /user_registation
+    defaults: { _controller: GPABundle:Default:userRegistrationForm }
+    
+gpa_user_registration:
+    path:     /user_registation/status
+    defaults: { _controller: GPABundle:Default:userRegistration }
+    
+
+#############  Routing related to Student  #######################
+
+student_dashboard:
+    path:     /student/
+    defaults: { _controller: GPABundle:Student:index }
+
+student_profile:
+    path:     /student/profile/
+    defaults: { _controller: GPABundle:Student:profile }
+        
+student_change_details:
+    path:     /student/profile/edit_details/
+    defaults: { _controller: GPABundle:Student:changeDetails }
+    
+student_change_password:
+    path:     /student/profile/edit_pass/
+    defaults: { _controller: GPABundle:Student:changePassword }
+    
+student_view_grades:
+    path:     /student/profile/view_grades/
+    defaults: { _controller: GPABundle:Student:viewGrades }
+    
+student_gpa_analysis:
+    path:     /student/performance_analysis/gpa_analysis/
+    defaults: { _controller: GPABundle:Student:gpaAnalysis }
+    
+student_gpa_compare:
+    path:     /student/performance_analysis/gpa_compare/
+    defaults: { _controller: GPABundle:Student:gpaCompare }
+    
+student_predict_gpa:
+    path:     /student/profile/GPAprediction/
+    defaults: { _controller: GPABundle:Student:predictGPA }
+
+
+
+
+#############  Routing related to Admin  #######################
+
+admin_dashboard:
+    path:     /admin/
+    defaults: { _controller: GPABundle:Admin:index }
+    
+admin_profile:
+    path:     /admin/profile
+    defaults: { _controller: GPABundle:Admin:profile }
+    
+admin_change_details:
+    path:     /admin/profile/edit_details/
+    defaults: { _controller: GPABundle:Admin:changeDetails }
+    
+admin_change_password:
+    path:     /admin/profile/edit_pass/
+    defaults: { _controller: GPABundle:Admin:changePassword }   
+
+admin_add_user:
+    path:     /admin/add_users
+    defaults: { _controller: GPABundle:Admin:addUser }
+    
+admin_check_user_availability:
+    path:     /admin/users/check_availability
+    defaults: { _controller: GPABundle:Admin:checkUserAvailability }
+    
+admin_add_user_submit:
+    path:     /admin/add_users/registration
+    defaults: { _controller: GPABundle:Admin:userRegistrationAdmin }
+    
+admin_view_users:
+    path:     /admin/view_users
+    defaults: { _controller: GPABundle:Admin:viewUsers }
+    
+admin_register_users:
+    path:     /admin/register_users
+    defaults: { _controller: GPABundle:Admin:registerUsers }
+    
+admin_get_ordered_unreg_userlist:
+    path:     /admin/view_users/unreg/userList
+    defaults: { _controller: GPABundle:Admin:getArrangedUserList }
+    
+admin_register_users_confirm:
+    path:     /admin/view_users/registration/confirm
+    defaults: { _controller: GPABundle:Admin:confirmRegistration }
+
+admin_ajax_view_users:
+  pattern:  /admin/view_users/ajax/search_results
+  defaults: { _controller: GPABundle:Admin:searchUserAjax }
+
+admin_user_profile_view:
+    path:     /admin/view_users/{indexNum}
+    defaults: { _controller: GPABundle:Admin:userProfileView }
+    
+admin_user_profile_change_details:
+    path:     /admin/view_users/{indexNum}/edit_details/
+    defaults: { _controller: GPABundle:Admin:changeDetails }
+    
+admin_user_profile_change_password:
+    path:     /admin/view_users/{indexNum}/edit_pass/
+    defaults: { _controller: GPABundle:Admin:changePassword }
+    
+admin_drop_user:
+    path:     /admin/view_users/drop/user
+    defaults: { _controller: GPABundle:Admin:dropUser }
+    
+admin_view_user_stats:
+    path:     /admin/view_users/stats/{indexNum}
+    defaults: { _controller: GPABundle:Admin:viewUserStats }
+
+admin_view_student_stats:
+    path:     /admin/view_users/student/stats/{indexNum}
+    defaults: { _controller: GPABundle:Admin:viewStudentStats }
+    
+admin_view_lec_stats:
+    path:     /admin/view_users/lec/stats/{indexNum}
+    defaults: { _controller: GPABundle:Admin:viewLecStats }
+    
+admin_get_ordered_lec_courselist:
+    path:     /admin/view_users/lec/courseList
+    defaults: { _controller: GPABundle:Admin:getArrangedCourseList }
+    
+admin_add_course:
+    path:     /admin/add_course
+    defaults: { _controller: GPABundle:Admin:addCourse }
+    
+admin_check_course_availability:
+    path:     /admin/add_course/check_availability
+    defaults: { _controller: GPABundle:Admin:checkCourseAvailability }
+ 
+admin_check_dept_lec_list:
+    path:     /admin/dept/lec_list
+    defaults: { _controller: GPABundle:Admin:deptLecList }
+    
+admin_create_course:
+    path:     /admin/course/create
+    defaults: { _controller: GPABundle:Admin:createCourse }
+    
+admin_add_enrolment:
+    path:     /admin/course_enrolments/add_new
+    defaults: { _controller: GPABundle:Admin:addEnrolment }
+    
+admin_check_student_availability:
+    path:     /admin/student/check_availability
+    defaults: { _controller: GPABundle:Admin:checkStudentAvailability }
+    
+admin_get_available_course_list:
+    path:     /admin/student/get/available_course_list
+    defaults: { _controller: GPABundle:Admin:availableCourseList }
+
+admin_confirm_enrolment:
+    path:     /admin/course_enrolments/confirm
+    defaults: { _controller: GPABundle:Admin:confirmCourseEnrolment }
+    
+admin_add_results:
+    path:     /admin/manage_results/add_results
+    defaults: { _controller: GPABundle:Admin:addResults }
+    
+admin_get_enrolled_course_list_with_no_results:
+    path:     /admin/student/enrolled_list/without_results
+    defaults: { _controller: GPABundle:Admin:getEnrolledCourseListWithNoResults }
+    
+admin_submit_course_results:
+    path:     /admin/manage_results/submit_results
+    defaults: { _controller: GPABundle:Admin:submitCourseResult }
+    
+admin_view_course:
+    path:     /admin/manage_results/view_course
+    defaults: { _controller: GPABundle:Admin:viewCourse }
+    
+admin_ajax_view_courses:
+  pattern:  /admin/view_course/ajax/search_results
+  defaults: { _controller: GPABundle:Admin:searchCourseAjax }
+  
+admin_edit_course:
+  pattern:  /admin/manage_course/edit/{courseID}
+  defaults: { _controller: GPABundle:Admin:editCourse }
+  
+admin_delete_course:
+  pattern:  /admin/manage_course/delete/
+  defaults: { _controller: GPABundle:Admin:deleteCourse }
+  
+admin_view_course_results:
+  pattern:  /admin/manage_course/results/{courseID}
+  defaults: { _controller: GPABundle:Admin:viewCourseResults }
+  
+admin_change_course_details:
+  pattern:  /admin/manage_course/change_details/{currentCourseID}
+  defaults: { _controller: GPABundle:Admin:changeCourseDetails }
+  
+admin_delete_course:
+  pattern:  /admin/manage_course/delete_course/{currentCourseID}
+  defaults: { _controller: GPABundle:Admin:deleteCourse }
+  
+admin_view_student_results:
+  pattern:  /admin/manage_results/view_student
+  defaults: { _controller: GPABundle:Admin:viewStudentResults }
+
+admin_get_student_results:
+  pattern:  /admin/student/get_results
+  defaults: { _controller: GPABundle:Admin:getStudentResults }
+  
+admin_edit_student_results:
+  pattern:  /admin/student/edit_results/{courseID}/{studentID}
+  defaults: { _controller: GPABundle:Admin:editStudentResults }
+  
+admin_delete_student_results:
+  pattern:  /admin/student/delete_results/
+  defaults: { _controller: GPABundle:Admin:deleteStudentResults }
+  
+admin_change_student_results:
+  pattern:  /admin/student/change_results/
+  defaults: { _controller: GPABundle:Admin:changeStudentResult }
+  
+
+
+lecturer_dashboard:
+    path:     /lec/
+    defaults: { _controller: GPABundle:Lecturer:index }
