@@ -1,0 +1,1199 @@
+a:8:{s:5:"token";s:6:"4fa1e7";s:6:"parent";N;s:8:"children";a:1:{i:0;s:6:"b28413";}s:4:"data";a:15:{s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":1763:{a:17:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"4fa1e7";s:15:"symfony_version";s:5:"2.7.1";s:13:"symfony_state";s:6:"stable";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:5:"5.6.3";s:14:"xdebug_enabled";b:0;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:0;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:1;s:7:"bundles";a:14:{s:15:"FrameworkBundle";s:78:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle";s:14:"SecurityBundle";s:77:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle";s:10:"TwigBundle";s:73:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle";s:13:"MonologBundle";s:50:"C:\xampp\htdocs\gpa2\vendor\symfony\monolog-bundle";s:17:"SwiftmailerBundle";s:54:"C:\xampp\htdocs\gpa2\vendor\symfony\swiftmailer-bundle";s:13:"AsseticBundle";s:50:"C:\xampp\htdocs\gpa2\vendor\symfony\assetic-bundle";s:14:"DoctrineBundle";s:52:"C:\xampp\htdocs\gpa2\vendor\doctrine\doctrine-bundle";s:26:"SensioFrameworkExtraBundle";s:57:"C:\xampp\htdocs\gpa2\vendor\sensio\framework-extra-bundle";s:9:"AppBundle";s:34:"C:\xampp\htdocs\gpa2\src\AppBundle";s:9:"GPABundle";s:34:"C:\xampp\htdocs\gpa2\src\GPABundle";s:11:"DebugBundle";s:74:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle";s:17:"WebProfilerBundle";s:80:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle";s:24:"SensioDistributionBundle";s:87:"C:\xampp\htdocs\gpa2\vendor\sensio\distribution-bundle\Sensio\Bundle\DistributionBundle";s:21:"SensioGeneratorBundle";s:81:"C:\xampp\htdocs\gpa2\vendor\sensio\generator-bundle\Sensio\Bundle\GeneratorBundle";}s:9:"sapi_name";s:14:"apache2handler";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":6480:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:0:{}s:15:"request_request";a:0:{}s:15:"request_headers";a:11:{s:4:"host";a:1:{i:0;s:9:"localhost";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:6:"accept";a:1:{i:0;s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";}s:25:"upgrade-insecure-requests";a:1:{i:0;s:1:"1";}s:10:"user-agent";a:1:{i:0;s:108:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36";}s:7:"referer";a:1:{i:0;s:70:"http://localhost/gpa2/web/app_dev.php/admin/manage_results/view_course";}s:15:"accept-encoding";a:1:{i:0;s:19:"gzip, deflate, sdch";}s:15:"accept-language";a:1:{i:0;s:14:"en-US,en;q=0.8";}s:6:"cookie";a:1:{i:0;s:68:"_ga=GA1.1.822513105.1439691122; PHPSESSID=119p9l2bqgbi0cdv8jrrpumo84";}s:3:"dnt";a:1:{i:0;s:1:"1";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:46:{s:4:"BASE";s:9:"/gpa2/web";s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:108:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36";s:12:"HTTP_REFERER";s:70:"http://localhost/gpa2/web/app_dev.php/admin/manage_results/view_course";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.8";s:11:"HTTP_COOKIE";s:68:"_ga=GA1.1.822513105.1439691122; PHPSESSID=119p9l2bqgbi0cdv8jrrpumo84";s:8:"HTTP_DNT";s:1:"1";s:4:"PATH";s:1843:"C:\Program Files (x86)\Python27\;C:\Program Files (x86)\Python27\Scripts;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\MATLAB\R2011a\runtime\win64;C:\Program Files\MATLAB\R2011a\bin;C:\MinGW\bin;C:\Program Files (x86)\Common Files\Autodesk Shared\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jre1.8.0_20;C:\Program Files\Java\jre8;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Apache Software foundation\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.8.0_11\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\Lapzone\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\CodeBlocks\MinGW\bin;C:\Users\Lapzone\AppData\Roaming\Python\Scripts";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:62:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.pyw";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:94:"<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:46:"Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:36:"C:/xampp/htdocs/gpa2/web/app_dev.php";s:11:"REMOTE_PORT";s:5:"16319";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:53:"/gpa2/web/app_dev.php/admin/manage_course/edit/CE1022";s:11:"SCRIPT_NAME";s:21:"/gpa2/web/app_dev.php";s:9:"PATH_INFO";s:32:"/admin/manage_course/edit/CE1022";s:15:"PATH_TRANSLATED";s:47:"C:\xampp\htdocs\admin\manage_course\edit\CE1022";s:8:"PHP_SELF";s:53:"/gpa2/web/app_dev.php/admin/manage_course/edit/CE1022";s:18:"REQUEST_TIME_FLOAT";d:1441700492.604000091552734375;s:12:"REQUEST_TIME";i:1441700492;}s:15:"request_cookies";a:2:{s:3:"_ga";s:26:"GA1.1.822513105.1439691122";s:9:"PHPSESSID";s:26:"119p9l2bqgbi0cdv8jrrpumo84";}s:18:"request_attributes";a:4:{s:11:"_controller";s:54:"GPABundle\Controller\AdminController::editCourseAction";s:8:"courseID";s:6:"CE1022";s:6:"_route";s:17:"admin_edit_course";s:13:"_route_params";a:1:{s:8:"courseID";s:6:"CE1022";}}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Tue, 08 Sep 2015 08:21:33 GMT";}s:13:"x-debug-token";a:1:{i:0;s:6:"4fa1e7";}s:18:"x-debug-token-link";a:1:{i:0;s:38:"/gpa2/web/app_dev.php/_profiler/b28413";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}}s:16:"session_metadata";a:3:{s:7:"Created";s:29:"Mon, 07 Sep 15 14:40:09 +0200";s:9:"Last used";s:29:"Tue, 08 Sep 15 10:21:30 +0200";s:8:"Lifetime";s:1:"0";}s:18:"session_attributes";a:1:{s:2:"id";s:7:"000000X";}s:7:"flashes";a:0:{}s:9:"path_info";s:32:"/admin/manage_course/edit/CE1022";s:10:"controller";a:4:{s:5:"class";s:36:"GPABundle\Controller\AdminController";s:6:"method";s:16:"editCourseAction";s:4:"file";s:65:"C:\xampp\htdocs\gpa2\src\GPABundle\Controller\AdminController.php";s:4:"line";i:1228;}s:6:"locale";s:2:"en";}}s:4:"ajax";C:62:"Symfony\Bundle\FrameworkBundle\DataCollector\AjaxDataCollector":6:{a:0:{}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":72476:{a:1:{s:9:"exception";O:50:"Symfony\Component\Debug\Exception\FlattenException":10:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:77:"Unexpected "}" in "GPABundle:AdminDashboard:editCourse.html.twig" at line 213";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:18:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:56:"C:\xampp\htdocs\gpa2\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:259;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:13:"lexExpression";s:4:"file";s:56:"C:\xampp\htdocs\gpa2\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:205;s:4:"args";a:0:{}}i:2;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:8:"lexBlock";s:4:"file";s:56:"C:\xampp\htdocs\gpa2\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:111;s:4:"args";a:0:{}}i:3;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:3225;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:21034:"<!DOCTYPE html>
+<!-- Admin Profile Page --> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Administrator Dashboard in GPA v1.0">
+    <meta name="author" content="MnS | Web Solutions">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Administrator | Profile </title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    
+    <!-- bootstrap theme -->
+    <link href="{{asset('css/bootstrap-theme.css')}}" rel="stylesheet">
+    
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{{asset('css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" />    
+
+    <!-- Custom styles -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" />	
+    <link href="{{ asset('css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo"><h4><strong>GPA v1.0<span class="lite"> &nbsp;&nbsp;&nbsp;&nbsp;  Grade Performance Analyzer</strong></h4></span></a>
+            <!--logo end-->
+
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- task notificatoin start -->
+                    <li id="task_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-task-l"></i>
+                        </a>
+
+                    </li>
+                    <!-- task notificatoin end -->
+                    
+                    <!-- inbox notificatoin start-->
+                    <li id="mail_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-envelope-l"></i>
+                        </a>
+                    </li>
+                    <!-- inbox notificatoin end -->
+                    
+                    <!-- alert notification start-->
+                    <li id="alert_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-bell-l"></i>
+                        </a>
+                    </li>
+                    <!-- alert notification end-->
+                    
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="{{asset('img/chat-avatar2.jpg') }}">
+                            </span>
+                            <span class="username"><strong>{{name}}</strong></span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_mail_alt"></i> Notifications</a>
+                            </li>
+                            <li>
+                                <a href="{{path('gpa_logout')}}"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                    
+                </ul>
+                <!-- notificatoin dropdown end-->
+                
+            </div>          
+      </header>      
+      <!--header end-->
+
+      
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse " style="width: 195px;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="{{path('admin_dashboard')}}">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+     
+                  <li>
+                      <a class="" href="{{path('admin_profile')}}">
+                          <i class="icon_profile"></i>
+                          <span>Profile</span>
+                      </a>
+                  </li>
+                  
+                  <li class="sub-menu">                     
+                      <a class="" href="javascript:;">
+                          <i class="icon_piechart"></i>
+                          <span>Manage Users</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{{path('admin_view_users')}}">Add Users</a></li> 
+                          <li><a class="" href="{{path('admin_view_users')}}">View Users</a></li>                          
+                          <li><a class="" href="{{path('admin_register_users')}}">Register Users</a></li>
+                      </ul>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_table"></i>
+                          <span>Manage Courses</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add Course</a></li>                          
+                          <li><a class="" href="">View Courses</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Course Enrolments</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Enrolment</a></li>  
+                          <li><a class="" href="l">View Enrolments</a></li>                          
+                      </ul> 
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Manage Results</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Result</a></li>  
+                          <li><a class="" href="">View Results</a></li>                          
+                      </ul> 
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper" style="margin-left: 10px;">
+		  <div class="row">
+				<div class="col-lg-9">
+                                    <h3 class="page-header"><i class="fa fa-user-md"></i>Course ID &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; <strong>{{courseDetails.getId}}</strong> &nbsp;&nbsp;&nbsp; {{courseDetails.getTitle}}
+                                    </h3>
+                                        <ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-user"></i>Manage Courses</li>
+                                                <li><i class="fa fa-user"></i>Edit Course</li>					  	
+					</ol>
+				</div>
+			</div>
+
+              <!-- page start-->
+              <div class="row">
+                 <div class="col-lg-9">
+                    <section class="panel">
+                          <header class="panel-heading tab-bg-info">
+                              <ul class="nav nav-tabs">
+                                  {%if flag1 or flag2  %}<li class="">
+                                  {% else %}<li class="active">
+                                  {%endif%}
+                                  
+                                      <a data-toggle="tab" href="#course">
+                                          <i class="icon-user"></i>
+                                          Current Details
+                                      </a>
+                                  </li>
+                                  
+                                  {%if flag1 or flag2 2}<li class="active">
+                                  {% else %}<li class="">
+                                  {%endif%}
+                                      <a data-toggle="tab" href="#editCourse">
+                                          <i class="icon-envelope"></i>
+                                          Edit Course
+                                      </a>
+                                  </li>
+
+                              </ul>
+                          </header>
+                          <div class="panel-body">
+                              <div class="tab-content">
+                                  
+                                  <!-- profile -->
+                                  {%if flag1 or flag2 %}<div id="course" class="tab-pane">
+                                  {% else %}<div id="course" class="tab-pane active">
+                                  {%endif%}
+                                    <section class="panel" style="width:700px;">
+                                      <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                          <div class="col-lg-12"><h1>Course Details</h1></div>
+                  
+                                          <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                
+                                                <tr>
+                                                    <td>Course ID</td>
+                                                    <td>{{courseDetails.getId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Title</td>
+                                                    <td>{{courseDetails.getTitle()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Lecturer ID</td>
+                                                    <td>{{courseDetails.getLecId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Credits</td>
+                                                    <td>{{courseDetails.getCredits()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Semester</td>
+                                                    <td>{{courseDetails.getSemester()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Year</td>
+                                                    <td>{{courseDetails.getYear()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Remarks</td>
+                                                    <td>{{courseDetails.getRemarks()}}</td>
+                                                </tr>
+
+
+                                            </tbody>
+                            
+                                         </table> 
+                                      </div>
+                                    </section>
+                                      <section>
+                                          <div class="row">                                              
+                                          </div>
+                                      </section>
+                                  </div>
+                                  <!-- edit-course -->
+                                  {%if flag1 or flag2 %}
+                                      <div id="editCourse" class="tab-pane active">
+                                  {% else %}
+                                      <div id="editCourse" class="tab-pane">
+                                  {%endif%}
+                                    <section class="panel">                                          
+                                          <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                              <h1> Profile Info</h1>
+                                              {%if flag1 %}<div class="alert alert-danger col-lg-9" role="alert">Course Details are NOT CHANGED successfully!!!<br>Please contact Admin</div>{%endif%}
+                                              {%if flag2 %}<div class="alert alert-success col-lg-9" role="alert">Course Details are changed successfully.</div>{%endif%}
+                                              <form class="form-horizontal col-lg-12" role="form" method="POST" action="{{path('admin_user_profile_change_details',{'indexNum':indexNum})}}">                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Course ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="firstName"  name="course_id" value="{{userDetails.getFirstName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Title</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="lastName"  name="title" value="{{userDetails.getLastName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Lecturer ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="email" class="form-control" id="email"  name="lec_id" value="{{userDetails.getEmail()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Credits</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="credits"  name="credits" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Semester</label>
+                                                      <div class="col-lg-1">
+                                                          <select class="form-control" name="semester" id="semester" required style="">
+                                                            <option value='' disabled selected style='display:none;'>Select</option>
+                                                            <option value='1'>1</option>
+                                                            <option value='2'>2</option>
+                                                            <option value='3'>3</option>
+                                                            <option value='4'>4</option>
+                                                            <option value='5'>5</option>
+                                                            <option value='6'>6</option>
+                                                            <option value='7'>7</option>
+                                                            <option value='8'>8</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                                      
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Year</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="year"  name="year" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Remarks</label>
+                                                        <div class="col-lg-7">
+                                                            <textarea name="remarks" id="remarks" form="courseDetails" class="form-control">{{ course.getRemarks() }}</textarea>
+                                                        </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <div class="col-lg-offset-7 col-lg-10">
+                                                          <button type="submit" class="btn btn-primary">Change</button>
+                                                      </div>
+                                                  </div>
+                                              </form>
+                                          </div>
+                                      </section>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </section>
+                 </div>
+              </div>
+
+              <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section end -->
+  
+    <!-- javascripts -->
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+
+    
+    
+    
+    <!-- nice scroll -->
+    <script src="{{asset('js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{asset('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    
+    <!--custome script for all page-->
+    <script src="{{asset('js/scripts.js')}}"></script>
+
+
+  </body>
+</html>
+
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}}}i:4;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:3260;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:21034:"<!DOCTYPE html>
+<!-- Admin Profile Page --> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Administrator Dashboard in GPA v1.0">
+    <meta name="author" content="MnS | Web Solutions">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Administrator | Profile </title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    
+    <!-- bootstrap theme -->
+    <link href="{{asset('css/bootstrap-theme.css')}}" rel="stylesheet">
+    
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{{asset('css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" />    
+
+    <!-- Custom styles -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" />	
+    <link href="{{ asset('css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo"><h4><strong>GPA v1.0<span class="lite"> &nbsp;&nbsp;&nbsp;&nbsp;  Grade Performance Analyzer</strong></h4></span></a>
+            <!--logo end-->
+
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- task notificatoin start -->
+                    <li id="task_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-task-l"></i>
+                        </a>
+
+                    </li>
+                    <!-- task notificatoin end -->
+                    
+                    <!-- inbox notificatoin start-->
+                    <li id="mail_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-envelope-l"></i>
+                        </a>
+                    </li>
+                    <!-- inbox notificatoin end -->
+                    
+                    <!-- alert notification start-->
+                    <li id="alert_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-bell-l"></i>
+                        </a>
+                    </li>
+                    <!-- alert notification end-->
+                    
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="{{asset('img/chat-avatar2.jpg') }}">
+                            </span>
+                            <span class="username"><strong>{{name}}</strong></span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_mail_alt"></i> Notifications</a>
+                            </li>
+                            <li>
+                                <a href="{{path('gpa_logout')}}"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                    
+                </ul>
+                <!-- notificatoin dropdown end-->
+                
+            </div>          
+      </header>      
+      <!--header end-->
+
+      
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse " style="width: 195px;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="{{path('admin_dashboard')}}">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+     
+                  <li>
+                      <a class="" href="{{path('admin_profile')}}">
+                          <i class="icon_profile"></i>
+                          <span>Profile</span>
+                      </a>
+                  </li>
+                  
+                  <li class="sub-menu">                     
+                      <a class="" href="javascript:;">
+                          <i class="icon_piechart"></i>
+                          <span>Manage Users</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{{path('admin_view_users')}}">Add Users</a></li> 
+                          <li><a class="" href="{{path('admin_view_users')}}">View Users</a></li>                          
+                          <li><a class="" href="{{path('admin_register_users')}}">Register Users</a></li>
+                      </ul>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_table"></i>
+                          <span>Manage Courses</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add Course</a></li>                          
+                          <li><a class="" href="">View Courses</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Course Enrolments</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Enrolment</a></li>  
+                          <li><a class="" href="l">View Enrolments</a></li>                          
+                      </ul> 
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Manage Results</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Result</a></li>  
+                          <li><a class="" href="">View Results</a></li>                          
+                      </ul> 
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper" style="margin-left: 10px;">
+		  <div class="row">
+				<div class="col-lg-9">
+                                    <h3 class="page-header"><i class="fa fa-user-md"></i>Course ID &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; <strong>{{courseDetails.getId}}</strong> &nbsp;&nbsp;&nbsp; {{courseDetails.getTitle}}
+                                    </h3>
+                                        <ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-user"></i>Manage Courses</li>
+                                                <li><i class="fa fa-user"></i>Edit Course</li>					  	
+					</ol>
+				</div>
+			</div>
+
+              <!-- page start-->
+              <div class="row">
+                 <div class="col-lg-9">
+                    <section class="panel">
+                          <header class="panel-heading tab-bg-info">
+                              <ul class="nav nav-tabs">
+                                  {%if flag1 or flag2  %}<li class="">
+                                  {% else %}<li class="active">
+                                  {%endif%}
+                                  
+                                      <a data-toggle="tab" href="#course">
+                                          <i class="icon-user"></i>
+                                          Current Details
+                                      </a>
+                                  </li>
+                                  
+                                  {%if flag1 or flag2 2}<li class="active">
+                                  {% else %}<li class="">
+                                  {%endif%}
+                                      <a data-toggle="tab" href="#editCourse">
+                                          <i class="icon-envelope"></i>
+                                          Edit Course
+                                      </a>
+                                  </li>
+
+                              </ul>
+                          </header>
+                          <div class="panel-body">
+                              <div class="tab-content">
+                                  
+                                  <!-- profile -->
+                                  {%if flag1 or flag2 %}<div id="course" class="tab-pane">
+                                  {% else %}<div id="course" class="tab-pane active">
+                                  {%endif%}
+                                    <section class="panel" style="width:700px;">
+                                      <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                          <div class="col-lg-12"><h1>Course Details</h1></div>
+                  
+                                          <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                
+                                                <tr>
+                                                    <td>Course ID</td>
+                                                    <td>{{courseDetails.getId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Title</td>
+                                                    <td>{{courseDetails.getTitle()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Lecturer ID</td>
+                                                    <td>{{courseDetails.getLecId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Credits</td>
+                                                    <td>{{courseDetails.getCredits()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Semester</td>
+                                                    <td>{{courseDetails.getSemester()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Year</td>
+                                                    <td>{{courseDetails.getYear()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Remarks</td>
+                                                    <td>{{courseDetails.getRemarks()}}</td>
+                                                </tr>
+
+
+                                            </tbody>
+                            
+                                         </table> 
+                                      </div>
+                                    </section>
+                                      <section>
+                                          <div class="row">                                              
+                                          </div>
+                                      </section>
+                                  </div>
+                                  <!-- edit-course -->
+                                  {%if flag1 or flag2 %}
+                                      <div id="editCourse" class="tab-pane active">
+                                  {% else %}
+                                      <div id="editCourse" class="tab-pane">
+                                  {%endif%}
+                                    <section class="panel">                                          
+                                          <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                              <h1> Profile Info</h1>
+                                              {%if flag1 %}<div class="alert alert-danger col-lg-9" role="alert">Course Details are NOT CHANGED successfully!!!<br>Please contact Admin</div>{%endif%}
+                                              {%if flag2 %}<div class="alert alert-success col-lg-9" role="alert">Course Details are changed successfully.</div>{%endif%}
+                                              <form class="form-horizontal col-lg-12" role="form" method="POST" action="{{path('admin_user_profile_change_details',{'indexNum':indexNum})}}">                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Course ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="firstName"  name="course_id" value="{{userDetails.getFirstName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Title</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="lastName"  name="title" value="{{userDetails.getLastName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Lecturer ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="email" class="form-control" id="email"  name="lec_id" value="{{userDetails.getEmail()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Credits</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="credits"  name="credits" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Semester</label>
+                                                      <div class="col-lg-1">
+                                                          <select class="form-control" name="semester" id="semester" required style="">
+                                                            <option value='' disabled selected style='display:none;'>Select</option>
+                                                            <option value='1'>1</option>
+                                                            <option value='2'>2</option>
+                                                            <option value='3'>3</option>
+                                                            <option value='4'>4</option>
+                                                            <option value='5'>5</option>
+                                                            <option value='6'>6</option>
+                                                            <option value='7'>7</option>
+                                                            <option value='8'>8</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                                      
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Year</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="year"  name="year" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Remarks</label>
+                                                        <div class="col-lg-7">
+                                                            <textarea name="remarks" id="remarks" form="courseDetails" class="form-control">{{ course.getRemarks() }}</textarea>
+                                                        </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <div class="col-lg-offset-7 col-lg-10">
+                                                          <button type="submit" class="btn btn-primary">Change</button>
+                                                      </div>
+                                                  </div>
+                                              </form>
+                                          </div>
+                                      </section>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </section>
+                 </div>
+              </div>
+
+              <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section end -->
+  
+    <!-- javascripts -->
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+
+    
+    
+    
+    <!-- nice scroll -->
+    <script src="{{asset('js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{asset('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    
+    <!--custome script for all page-->
+    <script src="{{asset('js/scripts.js')}}"></script>
+
+
+  </body>
+</html>
+
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}}}i:5;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:13:"compileSource";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:3141;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:21034:"<!DOCTYPE html>
+<!-- Admin Profile Page --> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Administrator Dashboard in GPA v1.0">
+    <meta name="author" content="MnS | Web Solutions">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Administrator | Profile </title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    
+    <!-- bootstrap theme -->
+    <link href="{{asset('css/bootstrap-theme.css')}}" rel="stylesheet">
+    
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{{asset('css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" />    
+
+    <!-- Custom styles -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" />	
+    <link href="{{ asset('css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo"><h4><strong>GPA v1.0<span class="lite"> &nbsp;&nbsp;&nbsp;&nbsp;  Grade Performance Analyzer</strong></h4></span></a>
+            <!--logo end-->
+
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- task notificatoin start -->
+                    <li id="task_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-task-l"></i>
+                        </a>
+
+                    </li>
+                    <!-- task notificatoin end -->
+                    
+                    <!-- inbox notificatoin start-->
+                    <li id="mail_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-envelope-l"></i>
+                        </a>
+                    </li>
+                    <!-- inbox notificatoin end -->
+                    
+                    <!-- alert notification start-->
+                    <li id="alert_notificatoin_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-bell-l"></i>
+                        </a>
+                    </li>
+                    <!-- alert notification end-->
+                    
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="{{asset('img/chat-avatar2.jpg') }}">
+                            </span>
+                            <span class="username"><strong>{{name}}</strong></span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_mail_alt"></i> Notifications</a>
+                            </li>
+                            <li>
+                                <a href="{{path('gpa_logout')}}"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                    
+                </ul>
+                <!-- notificatoin dropdown end-->
+                
+            </div>          
+      </header>      
+      <!--header end-->
+
+      
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse " style="width: 195px;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="{{path('admin_dashboard')}}">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+     
+                  <li>
+                      <a class="" href="{{path('admin_profile')}}">
+                          <i class="icon_profile"></i>
+                          <span>Profile</span>
+                      </a>
+                  </li>
+                  
+                  <li class="sub-menu">                     
+                      <a class="" href="javascript:;">
+                          <i class="icon_piechart"></i>
+                          <span>Manage Users</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{{path('admin_view_users')}}">Add Users</a></li> 
+                          <li><a class="" href="{{path('admin_view_users')}}">View Users</a></li>                          
+                          <li><a class="" href="{{path('admin_register_users')}}">Register Users</a></li>
+                      </ul>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_table"></i>
+                          <span>Manage Courses</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add Course</a></li>                          
+                          <li><a class="" href="">View Courses</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Course Enrolments</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Enrolment</a></li>  
+                          <li><a class="" href="l">View Enrolments</a></li>                          
+                      </ul> 
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a class="" href="javascript:;">
+                          <i class="icon_datareport"></i>
+                          <span>Manage Results</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="">Add New Result</a></li>  
+                          <li><a class="" href="">View Results</a></li>                          
+                      </ul> 
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper" style="margin-left: 10px;">
+		  <div class="row">
+				<div class="col-lg-9">
+                                    <h3 class="page-header"><i class="fa fa-user-md"></i>Course ID &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; <strong>{{courseDetails.getId}}</strong> &nbsp;&nbsp;&nbsp; {{courseDetails.getTitle}}
+                                    </h3>
+                                        <ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-user"></i>Manage Courses</li>
+                                                <li><i class="fa fa-user"></i>Edit Course</li>					  	
+					</ol>
+				</div>
+			</div>
+
+              <!-- page start-->
+              <div class="row">
+                 <div class="col-lg-9">
+                    <section class="panel">
+                          <header class="panel-heading tab-bg-info">
+                              <ul class="nav nav-tabs">
+                                  {%if flag1 or flag2  %}<li class="">
+                                  {% else %}<li class="active">
+                                  {%endif%}
+                                  
+                                      <a data-toggle="tab" href="#course">
+                                          <i class="icon-user"></i>
+                                          Current Details
+                                      </a>
+                                  </li>
+                                  
+                                  {%if flag1 or flag2 2}<li class="active">
+                                  {% else %}<li class="">
+                                  {%endif%}
+                                      <a data-toggle="tab" href="#editCourse">
+                                          <i class="icon-envelope"></i>
+                                          Edit Course
+                                      </a>
+                                  </li>
+
+                              </ul>
+                          </header>
+                          <div class="panel-body">
+                              <div class="tab-content">
+                                  
+                                  <!-- profile -->
+                                  {%if flag1 or flag2 %}<div id="course" class="tab-pane">
+                                  {% else %}<div id="course" class="tab-pane active">
+                                  {%endif%}
+                                    <section class="panel" style="width:700px;">
+                                      <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                          <div class="col-lg-12"><h1>Course Details</h1></div>
+                  
+                                          <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                
+                                                <tr>
+                                                    <td>Course ID</td>
+                                                    <td>{{courseDetails.getId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Title</td>
+                                                    <td>{{courseDetails.getTitle()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Lecturer ID</td>
+                                                    <td>{{courseDetails.getLecId()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Credits</td>
+                                                    <td>{{courseDetails.getCredits()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Semester</td>
+                                                    <td>{{courseDetails.getSemester()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Year</td>
+                                                    <td>{{courseDetails.getYear()}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Remarks</td>
+                                                    <td>{{courseDetails.getRemarks()}}</td>
+                                                </tr>
+
+
+                                            </tbody>
+                            
+                                         </table> 
+                                      </div>
+                                    </section>
+                                      <section>
+                                          <div class="row">                                              
+                                          </div>
+                                      </section>
+                                  </div>
+                                  <!-- edit-course -->
+                                  {%if flag1 or flag2 %}
+                                      <div id="editCourse" class="tab-pane active">
+                                  {% else %}
+                                      <div id="editCourse" class="tab-pane">
+                                  {%endif%}
+                                    <section class="panel">                                          
+                                          <div class="panel-body bio-graph-info" style="max-width: 600px;">
+                                              <h1> Profile Info</h1>
+                                              {%if flag1 %}<div class="alert alert-danger col-lg-9" role="alert">Course Details are NOT CHANGED successfully!!!<br>Please contact Admin</div>{%endif%}
+                                              {%if flag2 %}<div class="alert alert-success col-lg-9" role="alert">Course Details are changed successfully.</div>{%endif%}
+                                              <form class="form-horizontal col-lg-12" role="form" method="POST" action="{{path('admin_user_profile_change_details',{'indexNum':indexNum})}}">                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Course ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="firstName"  name="course_id" value="{{userDetails.getFirstName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Title</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="lastName"  name="title" value="{{userDetails.getLastName()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Lecturer ID</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="email" class="form-control" id="email"  name="lec_id" value="{{userDetails.getEmail()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Credits</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="credits"  name="credits" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Semester</label>
+                                                      <div class="col-lg-1">
+                                                          <select class="form-control" name="semester" id="semester" required style="">
+                                                            <option value='' disabled selected style='display:none;'>Select</option>
+                                                            <option value='1'>1</option>
+                                                            <option value='2'>2</option>
+                                                            <option value='3'>3</option>
+                                                            <option value='4'>4</option>
+                                                            <option value='5'>5</option>
+                                                            <option value='6'>6</option>
+                                                            <option value='7'>7</option>
+                                                            <option value='8'>8</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                                      
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Year</label>
+                                                      <div class="col-lg-6">
+                                                          <input type="text" class="form-control" id="year"  name="year" value="{{userDetails.getMobile()}}" required>
+                                                      </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <label class="col-lg-2 control-label">Remarks</label>
+                                                        <div class="col-lg-7">
+                                                            <textarea name="remarks" id="remarks" form="courseDetails" class="form-control">{{ course.getRemarks() }}</textarea>
+                                                        </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group">
+                                                      <div class="col-lg-offset-7 col-lg-10">
+                                                          <button type="submit" class="btn btn-primary">Change</button>
+                                                      </div>
+                                                  </div>
+                                              </form>
+                                          </div>
+                                      </section>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </section>
+                 </div>
+              </div>
+
+              <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section end -->
+  
+    <!-- javascripts -->
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+
+    
+    
+    
+    <!-- nice scroll -->
+    <script src="{{asset('js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{asset('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    
+    <!--custome script for all page-->
+    <script src="{{asset('js/scripts.js')}}"></script>
+
+
+  </body>
+</html>
+
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}}}i:6;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:12:"loadTemplate";s:4:"file";s:82:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:126;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}}}i:7;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:4:"load";s:4:"file";s:82:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:50;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}}}i:8;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:88:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:72;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:8:"Chathura";}s:13:"courseDetails";a:2:{i:0;s:6:"object";i:1;s:23:"GPABundle\Entity\Course";}s:8:"courseID";a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}s:5:"flag1";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:5:"flag2";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}}}i:9;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:88:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:97;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:8:"Chathura";}s:13:"courseDetails";a:2:{i:0;s:6:"object";i:1;s:23:"GPABundle\Entity\Course";}s:8:"courseID";a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}s:5:"flag1";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:5:"flag2";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}}}i:10;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:14:"renderResponse";s:4:"file";s:104:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle\Controller\Controller.php";s:4:"line";i:176;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:8:"Chathura";}s:13:"courseDetails";a:2:{i:0;s:6:"object";i:1;s:23:"GPABundle\Entity\Course";}s:8:"courseID";a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}s:5:"flag1";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:5:"flag2";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}i:2;a:2:{i:0;s:4:"null";i:1;N;}}}i:11;a:8:{s:9:"namespace";s:41:"Symfony\Bundle\FrameworkBundle\Controller";s:11:"short_class";s:10:"Controller";s:5:"class";s:52:"Symfony\Bundle\FrameworkBundle\Controller\Controller";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:65:"C:\xampp\htdocs\gpa2\src\GPABundle\Controller\AdminController.php";s:4:"line";i:1242;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"GPABundle:AdminDashboard:editCourse.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:8:"Chathura";}s:13:"courseDetails";a:2:{i:0;s:6:"object";i:1;s:23:"GPABundle\Entity\Course";}s:8:"courseID";a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}s:5:"flag1";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:5:"flag2";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}}}i:12;a:8:{s:9:"namespace";s:20:"GPABundle\Controller";s:11:"short_class";s:15:"AdminController";s:5:"class";s:36:"GPABundle\Controller\AdminController";s:4:"type";s:2:"->";s:8:"function";s:16:"editCourseAction";s:4:"file";N;s:4:"line";N;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}}}i:13;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:20:"call_user_func_array";s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3094;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:36:"GPABundle\Controller\AdminController";}i:1;a:2:{i:0;s:6:"string";i:1;s:16:"editCourseAction";}}}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:6:"CE1022";}}}}}i:14;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3056;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:15;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3207;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:16;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:2429;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:17;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:36:"C:\xampp\htdocs\gpa2\web\app_dev.php";s:4:"line";i:28;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:17:"Twig_Error_Syntax";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:56:"C:\xampp\htdocs\gpa2\vendor\twig\twig\lib\Twig\Lexer.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:259;s:64:" Symfony\Component\HttpKernel\Exception\FlattenException handler";N;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":19283:{a:2:{s:16:"called_listeners";a:32:{s:90:"kernel.request.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:116:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:111:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:85;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";}s:81:"kernel.request.Symfony\Component\HttpKernel\EventListener\DumpListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\HttpKernel\EventListener\DumpListener";s:6:"method";s:9:"configure";s:4:"file";s:107:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DumpListener.php";s:4:"line";i:40;s:6:"pretty";s:66:"Symfony\Component\HttpKernel\EventListener\DumpListener::configure";}s:92:"kernel.request.Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:16;s:6:"pretty";s:77:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:111:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\FragmentListener.php";s:4:"line";i:56;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:2032;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:109:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:71;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";}s:93:"kernel.request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:113:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\TranslatorListener.php";s:4:"line";i:38;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";}s:72:"kernel.request.Symfony\Component\Security\Http\Firewall::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:2530;s:6:"pretty";s:57:"Symfony\Component\Security\Http\Firewall::onKernelRequest";}s:90:"kernel.request.Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:84:"C:\xampp\htdocs\gpa2\vendor\symfony\assetic-bundle\EventListener\RequestListener.php";s:4:"line";i:23;s:6:"pretty";s:75:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:114:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RouterDataCollector.php";s:4:"line";i:66;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:115:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RequestDataCollector.php";s:4:"line";i:288;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:6895;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:6966;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:104:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:7408;s:6:"pretty";s:86:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:7532;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:7324;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";}s:90:"kernel.response.Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:56:"Symfony\Component\Security\Http\Firewall\ContextListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:108:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\Security\Http\Firewall\ContextListener.php";s:4:"line";i:108;s:6:"pretty";s:74:"Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:1955;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:111:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\Security\Http\RememberMe\ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:100:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:7438;s:6:"pretty";s:84:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:111:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:97;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:122:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener.php";s:4:"line";i:59;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:96:"kernel.response.Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:114:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\SaveSessionListener.php";s:4:"line";i:47;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:119:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\StreamedResponseListener.php";s:4:"line";i:32;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:109:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:80;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";}s:106:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:113:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\TranslatorListener.php";s:4:"line";i:43;s:6:"pretty";s:84:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:2026;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";}s:85:"kernel.finish_request.Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:2547;s:6:"pretty";s:63:"Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";}s:94:"kernel.exception.Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Component\Security\Http\Firewall\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:110:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\Security\Http\Firewall\ExceptionListener.php";s:4:"line";i:88;s:6:"pretty";s:77:"Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:111:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:73;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:112:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ExceptionListener.php";s:4:"line";i:40;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}}s:20:"not_called_listeners";a:6:{s:82:"kernel.terminate.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:107:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\WrappedListener.php";s:4:"line";i:55;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:91:"console.command.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:116:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:72:"console.command.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:9:"onCommand";s:4:"file";s:97:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\ConsoleHandler.php";s:4:"line";i:121;s:6:"pretty";s:56:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";}s:97:"console.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:11:"onTerminate";s:4:"file";s:92:"C:\xampp\htdocs\gpa2\vendor\symfony\swiftmailer-bundle\EventListener\EmailSenderListener.php";s:4:"line";i:46;s:6:"pretty";s:79:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";}s:76:"console.terminate.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:11:"onTerminate";s:4:"file";s:97:"C:\xampp\htdocs\gpa2\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\ConsoleHandler.php";s:4:"line";i:131;s:6:"pretty";s:58:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";}s:91:"kernel.view.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:7349;s:6:"pretty";s:79:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":20056:{a:5:{s:11:"error_count";i:1;s:17:"deprecation_count";i:1;s:12:"scream_count";i:0;s:10:"priorities";a:3:{i:100;a:2:{s:5:"count";i:63;s:4:"name";s:5:"DEBUG";}i:200;a:2:{s:5:"count";i:3;s:4:"name";s:4:"INFO";}i:500;a:2:{s:5:"count";i:1;s:4:"name";s:8:"CRITICAL";}}s:4:"logs";a:67:{i:0;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:34:"Matched route "admin_edit_course".";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:2:{s:16:"route_parameters";a:3:{s:11:"_controller";s:54:"GPABundle\Controller\AdminController::editCourseAction";s:8:"courseID";s:6:"CE1022";s:6:"_route";s:17:"admin_edit_course";}s:11:"request_uri";s:69:"http://localhost/gpa2/web/app_dev.php/admin/manage_course/edit/CE1022";}}i:1;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:51:"Populated the TokenStorage with an anonymous Token.";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:0:{}}i:2;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:3;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:4;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:113:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:19;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:72:"getEntityManager is deprecated since Symfony 2.1. Use getManager instead";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:5:{s:4:"type";i:16384;s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:6840;s:5:"level";i:-1;s:5:"stack";a:9:{i:0;a:3:{s:8:"function";s:11:"handleError";s:5:"class";s:36:"Symfony\Component\Debug\ErrorHandler";s:4:"type";s:2:"->";}i:1;a:3:{s:4:"file";s:46:"C:\xampp\htdocs\gpa2\app\cache\dev\classes.php";s:4:"line";i:6840;s:8:"function";s:13:"trigger_error";}i:2;a:5:{s:4:"file";s:65:"C:\xampp\htdocs\gpa2\src\GPABundle\Controller\AdminController.php";s:4:"line";i:1234;s:8:"function";s:16:"getEntityManager";s:5:"class";s:39:"Doctrine\Bundle\DoctrineBundle\Registry";s:4:"type";s:2:"->";}i:3;a:3:{s:8:"function";s:16:"editCourseAction";s:5:"class";s:36:"GPABundle\Controller\AdminController";s:4:"type";s:2:"->";}i:4;a:3:{s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3094;s:8:"function";s:20:"call_user_func_array";}i:5;a:5:{s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3056;s:8:"function";s:9:"handleRaw";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";}i:6;a:5:{s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:3207;s:8:"function";s:6:"handle";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";}i:7;a:5:{s:4:"file";s:44:"C:\xampp\htdocs\gpa2\app\bootstrap.php.cache";s:4:"line";i:2429;s:8:"function";s:6:"handle";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";}i:8;a:5:{s:4:"file";s:36:"C:\xampp\htdocs\gpa2\web\app_dev.php";s:4:"line";i:28;s:8:"function";s:6:"handle";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";}}}}i:20;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:265:"SELECT t0.password AS password1, t0.first_name AS first_name2, t0.last_name AS last_name3, t0.email AS email4, t0.mobile AS mobile5, t0.department AS department6, t0.profession AS profession7, t0.status AS status8, t0.id AS id9 FROM users t0 WHERE t0.id = ? LIMIT 1";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;s:7:"000000X";}}i:21;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:220:"SELECT t0.lec_id AS lec_id1, t0.title AS title2, t0.credits AS credits3, t0.semester AS semester4, t0.year AS year5, t0.class_avg AS class_avg6, t0.remarks AS remarks7, t0.id AS id8 FROM course t0 WHERE t0.id = ? LIMIT 1";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;s:6:"CE1022";}}i:22;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:190:"Uncaught PHP Exception Twig_Error_Syntax: "Unexpected "}" in "GPABundle:AdminDashboard:editCourse.html.twig" at line 213" at C:\xampp\htdocs\gpa2\vendor\twig\twig\lib\Twig\Lexer.php line 259";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:25:"Object(Twig_Error_Syntax)";}}i:23;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:24;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:113:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1441700492;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:122:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:48;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:49;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:50;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:51;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:52;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:126:"Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:53;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:54;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:55;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:56;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:57;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:58;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:59;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:60;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:61;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:62;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:63;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:64;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:65;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:66;a:5:{s:9:"timestamp";i:1441700493;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":29539:{a:2:{s:10:"start_time";d:1441700492610.711181640625;s:6:"events";a:41:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:476;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:502;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:23;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:4:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:180;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:180;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3145728;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:451;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:456;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}i:3;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:476;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:502;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:55:"Symfony\Component\HttpKernel\EventListener\DumpListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:11;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:448;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:448;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:11;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:11;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:448;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:448;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:11;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:11;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:448;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:448;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:11;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:23;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:448;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:448;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:31:"security.authentication.success";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:22;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:22;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:23;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:23;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"controller.get_callable";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:25;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:26;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1572864;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"kernel.controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:28;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:28;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:28;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:28;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:28;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:28;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:31;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:31;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:451;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:451;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:31;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:31;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:31;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:10:"controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:31;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:450;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"controller.get_arguments";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:33;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:33;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:1835008;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:8:"doctrine";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:58;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:60;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:65;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:65;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"doctrine";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:180;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:449;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Component\Security\Http\Firewall\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:180;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:180;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3145728;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:180;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:449;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:181;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:446;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:21:"kernel.finish_request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:448;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:448;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:450;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:56:"Symfony\Component\Security\Http\Firewall\ContextListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:450;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:450;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:450;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:450;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:450;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:451;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:456;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:465;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:39:"@WebProfiler/Profiler/base_js.html.twig";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:470;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:4980736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:471;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:471;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:471;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:476;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:502;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:476;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:476;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5242880;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1441700492734.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":62:{a:2:{s:6:"memory";i:10747904;s:12:"memory_limit";i:134217728;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:4:"form";C:64:"Symfony\Component\Form\Extension\DataCollector\FormDataCollector":71:{a:3:{s:5:"forms";a:0:{}s:13:"forms_by_hash";a:0:{}s:9:"nb_errors";i:0;}}s:4:"twig";C:51:"Symfony\Bridge\Twig\DataCollector\TwigDataCollector":17365:{a:1:{s:7:"profile";s:17334:"C:21:"Twig_Profiler_Profile":17297:{a:6:{i:0;s:4:"main";i:1;s:4:"main";i:2;s:4:"ROOT";i:3;a:3:{s:2:"wt";d:1441700492.7307879924774169921875;s:2:"mu";i:1266136;s:3:"pmu";i:1279280;}i:4;a:3:{s:2:"wt";d:1441700493.2057859897613525390625;s:2:"mu";i:3972944;s:3:"pmu";i:9305568;}i:5;a:2:{i:0;C:21:"Twig_Profiler_Profile":16278:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:45:"TwigBundle:Exception:exception_full.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.931334018707275390625;s:2:"mu";i:3233256;s:3:"pmu";i:3261024;}i:4;a:3:{s:2:"wt";d:1441700493.1741640567779541015625;s:2:"mu";i:3615360;s:3:"pmu";i:9305568;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":15901:{a:6:{i:0;s:28:"TwigBundle::layout.html.twig";i:1;s:28:"TwigBundle::layout.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9313690662384033203125;s:2:"mu";i:3235840;s:3:"pmu";i:3261216;}i:4;a:3:{s:2:"wt";d:1441700493.174149990081787109375;s:2:"mu";i:3617992;s:3:"pmu";i:9305568;}i:5;a:3:{i:0;C:21:"Twig_Profiler_Profile":292:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:5:"title";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1441700492.9314019680023193359375;s:2:"mu";i:3240728;s:3:"pmu";i:3261440;}i:4;a:3:{s:2:"wt";d:1441700492.931457996368408203125;s:2:"mu";i:3245440;s:3:"pmu";i:3263488;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":291:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:4:"head";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1441700492.931560993194580078125;s:2:"mu";i:3246760;s:3:"pmu";i:3263560;}i:4;a:3:{s:2:"wt";d:1441700492.9315950870513916015625;s:2:"mu";i:3247136;s:3:"pmu";i:3263560;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":14897:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:4:"body";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1441700492.931610107421875;s:2:"mu";i:3247952;s:3:"pmu";i:3263560;}i:4;a:3:{s:2:"wt";d:1441700493.1741430759429931640625;s:2:"mu";i:3619488;s:3:"pmu";i:9305568;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":14571:{a:6:{i:0;s:40:"TwigBundle:Exception:exception.html.twig";i:1;s:40:"TwigBundle:Exception:exception.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9360659122467041015625;s:2:"mu";i:3263824;s:3:"pmu";i:3302896;}i:4;a:3:{s:2:"wt";d:1441700493.174128055572509765625;s:2:"mu";i:3622184;s:3:"pmu";i:9305568;}i:5;a:3:{i:0;C:21:"Twig_Profiler_Profile":6747:{a:6:{i:0;s:37:"TwigBundle:Exception:traces.html.twig";i:1;s:37:"TwigBundle:Exception:traces.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.940557003021240234375;s:2:"mu";i:3278824;s:3:"pmu";i:3320168;}i:4;a:3:{s:2:"wt";d:1441700493.1528871059417724609375;s:2:"mu";i:3461432;s:3:"pmu";i:9305568;}i:5;a:18:{i:0;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9449770450592041015625;s:2:"mu";i:3293232;s:3:"pmu";i:3337672;}i:4;a:3:{s:2:"wt";d:1441700492.9686949253082275390625;s:2:"mu";i:3294856;s:3:"pmu";i:3819040;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9687569141387939453125;s:2:"mu";i:3295744;s:3:"pmu";i:3819040;}i:4;a:3:{s:2:"wt";d:1441700492.9716761112213134765625;s:2:"mu";i:3312728;s:3:"pmu";i:3849264;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9717109203338623046875;s:2:"mu";i:3313576;s:3:"pmu";i:3849264;}i:4;a:3:{s:2:"wt";d:1441700492.97445201873779296875;s:2:"mu";i:3314104;s:3:"pmu";i:3867960;}i:5;a:0:{}}}i:3;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700492.9744889736175537109375;s:2:"mu";i:3314952;s:3:"pmu";i:3867960;}i:4;a:3:{s:2:"wt";d:1441700493.008327960968017578125;s:2:"mu";i:3332016;s:3:"pmu";i:9185296;}i:5;a:0:{}}}i:4;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0084021091461181640625;s:2:"mu";i:3332864;s:3:"pmu";i:9185296;}i:4;a:3:{s:2:"wt";d:1441700493.042336940765380859375;s:2:"mu";i:3378448;s:3:"pmu";i:9271672;}i:5;a:0:{}}}i:5;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0424129962921142578125;s:2:"mu";i:3379296;s:3:"pmu";i:9271672;}i:4;a:3:{s:2:"wt";d:1441700493.0764310359954833984375;s:2:"mu";i:3396208;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:6;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.076508045196533203125;s:2:"mu";i:3397056;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.0778849124908447265625;s:2:"mu";i:3414192;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:7;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0779259204864501953125;s:2:"mu";i:3415040;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.0790851116180419921875;s:2:"mu";i:3415568;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:8;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0791189670562744140625;s:2:"mu";i:3416416;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.0802860260009765625;s:2:"mu";i:3417216;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:9;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0803220272064208984375;s:2:"mu";i:3418096;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.0814659595489501953125;s:2:"mu";i:3418624;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:10;C:21:"Twig_Profiler_Profile":313:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0814990997314453125;s:2:"mu";i:3419472;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.0835781097412109375;s:2:"mu";i:3420272;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:11;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.083612918853759765625;s:2:"mu";i:3421120;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.09189510345458984375;s:2:"mu";i:3438224;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:12;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.0919439792633056640625;s:2:"mu";i:3439072;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.09200191497802734375;s:2:"mu";i:3439600;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:13;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.092029094696044921875;s:2:"mu";i:3440448;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1071979999542236328125;s:2:"mu";i:3441128;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:14;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1072590351104736328125;s:2:"mu";i:3441976;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.122191905975341796875;s:2:"mu";i:3442504;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:15;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.122252941131591796875;s:2:"mu";i:3443352;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.137218952178955078125;s:2:"mu";i:3443880;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:16;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.137280941009521484375;s:2:"mu";i:3444728;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1521050930023193359375;s:2:"mu";i:3445320;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:17;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.152163028717041015625;s:2:"mu";i:3446232;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.152862071990966796875;s:2:"mu";i:3463312;s:3:"pmu";i:9305568;}i:5;a:0:{}}}}}}i:1;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:logs.html.twig";i:1;s:35:"TwigBundle:Exception:logs.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.15777301788330078125;s:2:"mu";i:3491632;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1582338809967041015625;s:2:"mu";i:3493440;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":7064:{a:6:{i:0;s:42:"TwigBundle:Exception:traces_text.html.twig";i:1;s:42:"TwigBundle:Exception:traces_text.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.16277790069580078125;s:2:"mu";i:3482208;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1741158962249755859375;s:2:"mu";i:3623912;s:3:"pmu";i:9305568;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":6695:{a:6:{i:0;s:36:"TwigBundle:Exception:traces.txt.twig";i:1;s:36:"TwigBundle:Exception:traces.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.16736602783203125;s:2:"mu";i:3495232;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.17409992218017578125;s:2:"mu";i:3626336;s:3:"pmu";i:9305568;}i:5;a:18:{i:0;C:21:"Twig_Profiler_Profile":313:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1717979907989501953125;s:2:"mu";i:3508816;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.171833038330078125;s:2:"mu";i:3510104;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.171864032745361328125;s:2:"mu";i:3510992;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1719000339508056640625;s:2:"mu";i:3511544;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":312:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.171925067901611328125;s:2:"mu";i:3512392;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.171955108642578125;s:2:"mu";i:3512920;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:3;C:21:"Twig_Profiler_Profile":314:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.17197895050048828125;s:2:"mu";i:3513768;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.172398090362548828125;s:2:"mu";i:3538872;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:4;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1724250316619873046875;s:2:"mu";i:3539720;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1728289127349853515625;s:2:"mu";i:3568920;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:5;C:21:"Twig_Profiler_Profile":312:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.172854900360107421875;s:2:"mu";i:3569768;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.173297882080078125;s:2:"mu";i:3594872;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:6;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1733229160308837890625;s:2:"mu";i:3595728;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.17335796356201171875;s:2:"mu";i:3596256;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:7;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1733839511871337890625;s:2:"mu";i:3597104;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1734230518341064453125;s:2:"mu";i:3597632;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:8;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1734468936920166015625;s:2:"mu";i:3598480;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.17350292205810546875;s:2:"mu";i:3599040;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:9;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1735270023345947265625;s:2:"mu";i:3599920;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1735780239105224609375;s:2:"mu";i:3600448;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:10;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1735999584197998046875;s:2:"mu";i:3601296;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1736528873443603515625;s:2:"mu";i:3618208;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:11;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.173675060272216796875;s:2:"mu";i:3619056;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1737248897552490234375;s:2:"mu";i:3619584;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:12;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.17374706268310546875;s:2:"mu";i:3620432;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1737840175628662109375;s:2:"mu";i:3620960;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:13;C:21:"Twig_Profiler_Profile":312:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1738049983978271484375;s:2:"mu";i:3621808;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.17385101318359375;s:2:"mu";i:3622336;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:14;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.17387294769287109375;s:2:"mu";i:3623184;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1739079952239990234375;s:2:"mu";i:3623712;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:15;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1739299297332763671875;s:2:"mu";i:3624560;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.173966884613037109375;s:2:"mu";i:3625088;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:16;C:21:"Twig_Profiler_Profile":316:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1739881038665771484375;s:2:"mu";i:3625936;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.174027919769287109375;s:2:"mu";i:3626536;s:3:"pmu";i:9305568;}i:5;a:0:{}}}i:17;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.1740500926971435546875;s:2:"mu";i:3627456;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.1740839481353759765625;s:2:"mu";i:3627984;s:3:"pmu";i:9305568;}i:5;a:0:{}}}}}}}}}}}}}}}}}}}}}i:1;C:21:"Twig_Profiler_Profile":690:{a:6:{i:0;s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";i:1;s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.2006061077117919921875;s:2:"mu";i:3953528;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.2057819366455078125;s:2:"mu";i:3972712;s:3:"pmu";i:9305568;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:39:"@WebProfiler/Profiler/base_js.html.twig";i:1;s:39:"@WebProfiler/Profiler/base_js.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1441700493.205401897430419921875;s:2:"mu";i:3962648;s:3:"pmu";i:9305568;}i:4;a:3:{s:2:"wt";d:1441700493.205667972564697265625;s:2:"mu";i:3972488;s:3:"pmu";i:9305568;}i:5;a:0:{}}}}}}}}}";}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":248:{a:7:{s:7:"enabled";b:1;s:13:"authenticated";b:1;s:11:"token_class";s:67:"Symfony\Component\Security\Core\Authentication\Token\AnonymousToken";s:4:"user";s:5:"anon.";s:5:"roles";a:0:{}s:15:"inherited_roles";a:0:{}s:23:"supports_role_hierarchy";b:1;}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":1390:{a:6:{s:7:"queries";a:1:{s:7:"default";a:2:{i:1;a:5:{s:3:"sql";s:265:"SELECT t0.password AS password1, t0.first_name AS first_name2, t0.last_name AS last_name3, t0.email AS email4, t0.mobile AS mobile5, t0.department AS department6, t0.profession AS profession7, t0.status AS status8, t0.id AS id9 FROM users t0 WHERE t0.id = ? LIMIT 1";s:6:"params";a:1:{i:0;s:7:"000000X";}s:5:"types";a:1:{i:0;i:2;}s:11:"executionMS";d:0.0012428760528564453125;s:11:"explainable";b:1;}i:2;a:5:{s:3:"sql";s:220:"SELECT t0.lec_id AS lec_id1, t0.title AS title2, t0.credits AS credits3, t0.semester AS semester4, t0.year AS year5, t0.class_avg AS class_avg6, t0.remarks AS remarks7, t0.id AS id8 FROM course t0 WHERE t0.id = ? LIMIT 1";s:6:"params";a:1:{i:0;s:6:"CE1022";}s:5:"types";a:1:{i:0;i:2;}s:11:"executionMS";d:0.0004360675811767578125;s:11:"explainable";b:1;}}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:2:{s:22:"GPABundle\Entity\Users";s:22:"GPABundle\Entity\Users";s:23:"GPABundle\Entity\Course";s:23:"GPABundle\Entity\Course";}}s:6:"errors";a:0:{}s:6:"caches";a:4:{s:7:"enabled";b:0;s:11:"log_enabled";b:0;s:6:"counts";a:3:{s:4:"puts";i:0;s:4:"hits";i:0;s:6:"misses";i:0;}s:7:"regions";a:3:{s:4:"puts";a:0:{}s:4:"hits";a:0:{}s:6:"misses";a:0:{}}}}}s:4:"dump";C:60:"Symfony\Component\HttpKernel\DataCollector\DumpDataCollector":6:{a:0:{}}}s:2:"ip";s:3:"::1";s:6:"method";s:3:"GET";s:3:"url";s:69:"http://localhost/gpa2/web/app_dev.php/admin/manage_course/edit/CE1022";s:4:"time";i:1441700493;}
